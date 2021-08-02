@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Begin General*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('/img/home.jpg');
+    background-size: cover;   
+}
+/*End General*/
+
+/*Begin Menu*/
+.menu{
+    width: 100%;
+    height: 55px;
+    background: #323232;
+    border-bottom: 5px solid aliceblue;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li{
+    width: 150px;
+    float: left;
+}
+
+.menu a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #323232;
+    color: aliceblue;
+    font-weight: bold;
+    border-right: 2px solid aliceblue;
+}
+
+.menu a:hover{
+    color: brown;
+    transition: .3s;
+}
+/*End Menu*/
+
+
+/*Begin Table*/
+table#booktable{
+    background-color: #323232;
+    position: relative;
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+    margin-top: 3%;
+    color: aliceblue;
+    border-spacing: inherit;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    font-size: .9rem;
+    table-layout: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+td{
+    border-right: 2px solid aliceblue;
+}
+
+td#alter,
+td#delete,
+td#year{
+    width: 8%;
+}
+/*End Table*/
